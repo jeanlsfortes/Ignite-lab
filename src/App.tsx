@@ -1,11 +1,11 @@
-
-import './App.css'
+import './styles/global.css';
 
 export default function App() {
 
-
   return (
-    <h1>ok</h1>
-  );
+    <h1 className="font-bold text-red-800 text-2xl">tudo funcionando
+
+    </h1>
+  )
 }
 
