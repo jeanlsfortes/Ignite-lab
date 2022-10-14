@@ -13,14 +13,18 @@ module.exports = {
       '2xl':32,
     },
     colors:{
+      transparent: 'transparent',
       'preto': '#000000',
       'vermelho':'#D91F25',
-      'cinza-200':'#202024',
-      'cinza-400':'#121214',
       'amarelo':'#F3E627',
       'marrom':'#271A11',
-      'branco-400':'#C4C4CC',
-      'branco-200':'#E1E1E6',
+      cinza: {
+        900: '#121214',
+        800: '#202024',
+        400: '#7c7c8a',
+        200: '#c4c4cc',
+        100: '#e1e1e6',
+      },
     },
     extend: {
       fontFamily: {
