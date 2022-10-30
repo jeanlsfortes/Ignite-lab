@@ -14,8 +14,8 @@ export function App() {
       <header className="flex flex-col items-center">
         <Logo />
 
-        <Heading size="lg" className="mt-4">
-          Ignite Lab
+        <Heading size="lg" className="mt-4 text-vermelho">
+          Ignite Academia
         </Heading>
 
         <Text size="lg" className="text-cinza-400 mt-1">
@@ -25,10 +25,9 @@ export function App() {
 
       <form className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10">
         <label htmlFor="email" className="flex flex-col gap-3">
-          <Text className="font-semibold">Endereço de e-mail</Text>
+          <Text className="font-semibold text-amarelo">Endereço de e-mail</Text>
           <TextInput.Root>
             <TextInput.Icon>
-              {/* <Envelope /> */}
             </TextInput.Icon>
 
             <TextInput.Input type="email" id="email" placeholder="Digite seu e-mail" />
@@ -36,10 +35,9 @@ export function App() {
         </label>
 
         <label htmlFor="password" className="flex flex-col gap-3">
-          <Text className="font-semibold">Sua senha</Text>
+          <Text className="font-semibold  text-amarelo">Sua senha</Text>
           <TextInput.Root>
             <TextInput.Icon>
-              {/* <Lock /> */}
             </TextInput.Icon>
 
             <TextInput.Input type="password" id="password" placeholder="******" />
@@ -47,7 +45,6 @@ export function App() {
         </label>
 
         <label htmlFor="remember" className="flex items-center gap-2">
-          {/* <Checkbox id="remember" /> */}
           <Text size="sm" className="text-cinza-200">Lembrar de mim por 30 dias</Text>
         </label>
 

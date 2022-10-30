@@ -4,7 +4,7 @@ interface LogoProps extends SVGAttributes<HTMLOrSVGElement> {}
 
 export function Logo(props: LogoProps) {
   return (
-    <h1>LOGO</h1>
+    <img src="./assistants/boku-no-hero"></img>
   )
 }
 
